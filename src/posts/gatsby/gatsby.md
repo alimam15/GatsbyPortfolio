@@ -5,6 +5,8 @@ date: "2020-03-17"
 
 This is an important post, focus please
 
+![Laptop](./laptop2.jpg)
+
 ## Topics:
 
 1. Coronavirus
