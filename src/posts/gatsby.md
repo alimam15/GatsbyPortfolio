@@ -1,6 +1,6 @@
 ---
 title: "The great post of history"
-data: "2020-03-17"
+date: "2020-03-17"
 ---
 
 This is an important post, focus please
