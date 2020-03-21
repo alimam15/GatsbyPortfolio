@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout  from "../components/layout"
 import {graphql} from "gatsby"
+import Head from "../components/head"
 import {documentToReactComponent, documentToReactComponents} from "@contentful/rich-text-react-renderer"
 
 // Old Query for Markdown purpose
@@ -41,6 +42,7 @@ const Blog = (props) => {
   }
    return(
      <Layout>
+     <Head title={props.data.contentfulBlogPost.title} />
      <h1>{title}</h1>
      <p>{publishedDate}</p>
      {documentToReactComponents(props.data.contentfulBlogPost.body.json, options)}
