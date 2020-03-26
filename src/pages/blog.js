@@ -43,19 +43,20 @@ const BlogPage = () => {
    return(
     <Layout>
     <Head title="blog" />
+    
     <h1>Blog</h1>
-    <SearchBox searchChange={onSearchChange} />
+    
+ <SearchBox searchChange={onSearchChange} />
+   
     <ol className={blogStyles.posts}>
         {filteredBlogs.map((edge, i)=> {
             return(
                 <li key={i} className={blogStyles.post}>
                 <Link to={`/blog/${edge.node.slug}`}>
                     <h2>{edge.node.title} </h2>
-                    
                     <p>{edge.node.publishedDate}</p>
                 </Link>
-                </li>
-                
+                </li>    
             )})
         }
     </ol>
