@@ -3,7 +3,6 @@ import Layout from "../components/layout"
 import {Link} from "gatsby"
 import Head from "../components/head"
 
-
 const NotFound = ()=>(
     <Layout>
         <Head title="404" />
