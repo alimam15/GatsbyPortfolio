@@ -8,7 +8,8 @@ const AboutPage = () => (
     <Layout>
         <Head title="about" />
         <h1>About Page</h1>
-        <p>This is the about page</p>
+        <h3>This is the about page</h3>
+        <p>Here you can add some content about your website.</p>
     </Layout>
 
 )
