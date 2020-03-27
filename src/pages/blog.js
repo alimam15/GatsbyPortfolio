@@ -6,7 +6,6 @@ import Head from "../components/head"
 import SearchBox from "../components/searchBox"
 
 
-
 const BlogPage = () => {
     const [searchfield, setSearchfield] = useState('')
     /* Old query using markdonw Remark */
