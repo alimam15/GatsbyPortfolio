@@ -7,7 +7,7 @@ const NotFound = ()=>(
     <Layout>
         <Head title="404" />
         <h1>Page 404</h1>
-        <p>page not found!</p>
+        <p>Page not found!</p>
         <p><Link to="/">Head Home!</Link></p>
     </Layout>
 )
