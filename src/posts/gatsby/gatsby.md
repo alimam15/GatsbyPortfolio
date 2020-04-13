@@ -9,7 +9,7 @@ This is the gatsby markdown post
 
 ## Topics:
 
-1. Coronavirus
+1. Coronavirus pandemic
 2. Quarantine
 3. Remote job
 
