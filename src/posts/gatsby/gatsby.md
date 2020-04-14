@@ -10,6 +10,6 @@ This is the gatsby markdown post
 ## Topics:
 
 1. Coronavirus pandemic
-2. Quarantine
+2. Quarantine extebded
 3. Remote job
 
