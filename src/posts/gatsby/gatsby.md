@@ -13,4 +13,5 @@ This is the gatsby markdown post
 2. Quarantine extebded
 3. Remote job / teletravail
 4. Canceled flights
+5. Covid confinement extended
 
