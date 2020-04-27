@@ -14,4 +14,5 @@ const indexPage = () => {
     </Layout>
 )}
 
+
 export default indexPage
